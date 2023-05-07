@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2, h3 {
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+}
+.left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+    float: left; 
+    width: 50%; 
+  }
+.right-container {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    float: left; 
+    width: 50%; 
+}
+img{
+    height: 13rem;
+    max-width: 13rem;
+    border-radius: 100px;
+    justify-content: center;
+    filter: grayscale(25%);
+    }
+img:hover{
+    filter: grayscale(0%);
+    }
+.aboutme{
+    justify-content: center;
+    text-align: left;
+    padding: 20px;
+    border: solid 0.1px #1a1919;
+    background-color: #757270;
+    opacity: 0.6;    
+    box-shadow: 6px 4px 4px -1px #393838;
+    margin-bottom: 1.1rem;
+}
+h2, h3 {
+    text-align:center;
+    line-height: 1.7em;
+    }
+h2 {
+    font-size: 1.8rem;
+}
+h3 {
+    font-size: 1.6rem;
+}
+p {
+    font-size: 1.4rem;
+    font-family: "Courier New", Courier, monospace;
+    color: #f9f8f8;
+}
+.card{
+    max-height: fit-content;
+    justify-content: center;
+}
+body{
+    background: url("pexels-pixabay-355887.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   }
+a {
+   font-size: 1.7rem;
+   letter-spacing: 15px;
+}
+.container{
+    width: 100%; 
+}
+@media (min-width:768px) {
+    .content > * {
+        width: 20%;
+    }
+}
+.content{
+    flex-wrap: wrap;
+    display: flex;
+    }
+.content > *{
+    width: 100%;
+    padding: 1rem;
+}
+.links{
+    font-size: 2.1rem;
+    letter-spacing:  1.5rem;
+}
+#fb:hover, #insta:hover, #linkedin:hover {
+    font-size: 2.3rem;
+}
